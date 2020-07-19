@@ -1,7 +1,5 @@
 package com.company;
-
 import java.util.Scanner;
-
 public class Main {
 
     public static void main(String[] args) {
@@ -18,20 +16,10 @@ public class Main {
 
         for (int i=1 ; i <= number ; i++){
 
-            if (i%3==0 && i%7==0) {
-                System.out.println("Pif paf");
-            }
-            else if (i%7==0){
-                System.out.println("Paf");
-            }
-            else if (i%3==0) {
-                System.out.println("Pif");
-            }
-            else {
-                System.out.println(i);
-            }
-
+            if (i%3==0 && i%7==0)    { System.out.println("Pif paf"); }
+            else if (i%7==0)         { System.out.println("Paf"); }
+            else if (i%3==0)         { System.out.println("Pif"); }
+            else                     { System.out.println(i); }
         }
-
     }
 }
